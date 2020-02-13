@@ -9757,7 +9757,7 @@ h5,
 }
 .hero-wrap .overlay {
   position: absolute;
-  width: 58%;
+  width: 61%;
   top: 0;
   left: 0;
   right: 0;
@@ -11663,7 +11663,7 @@ textarea.form-control {
 .medium-blog{
   display: flex;
   flex-direction: row;
-  
+
 }
 
 @media (max-width: 767.98px) {

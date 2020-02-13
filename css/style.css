@@ -9757,7 +9757,7 @@ h5,
 }
 .hero-wrap .overlay {
   position: absolute;
-  width: 50%;
+  width: 58%;
   top: 0;
   left: 0;
   right: 0;
@@ -9832,7 +9832,14 @@ h5,
 }
 @media (max-width: 991.98px) {
   .slider-text h1 {
-    font-size: 40px;
+    font-size: 53px;
+    margin-right: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .slider-text h1 {
+    font-size: 50px;
+    margin-right: 18rem;
   }
 }
 .slider-text h1 span {
@@ -11650,6 +11657,19 @@ textarea.form-control {
   display: flex;
   justify-content: center;
 }
-.orange{
-  color: #F68A0A;
+.orange {
+  color: #f68a0a;
+}
+.medium-blog{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+@media (max-width: 767.98px) {
+  .medium-blog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

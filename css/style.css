@@ -9805,43 +9805,16 @@ h5,
 }
 .slider-text h1 {
   font-size: 64px;
-  color: #4c6179;
+  color: #ffffff;
   line-height: 1.2;
   font-weight: bold;
-  background: #4c6179;
-  background: -moz-linear-gradient(45deg, #4c6179 0%, #4c6179 0%, #59b7ff 100%);
-  background: -webkit-gradient(
-    left bottom,
-    right top,
-    color-stop(0%, #4c6179),
-    color-stop(0%, #4c6179),
-    color-stop(100%, #59b7ff)
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #4c6179 0%,
-    #4c6179 0%,
-    #59b7ff 100%
-  );
-  background: -o-linear-gradient(45deg, #4c6179 0%, #4c6179 0%, #59b7ff 100%);
-  background: -ms-linear-gradient(45deg, #4c6179 0%, #4c6179 0%, #59b7ff 100%);
-  background: linear-gradient(45deg, #4c6179 0%, #4c6179 0%, #59b7ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c6179', endColorstr='#59b7ff', GradientType=1 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 @media (max-width: 991.98px) {
   .slider-text h1 {
-    font-size: 53px;
-    margin-right: 5rem;
+    font-size: 44px;
   }
 }
-@media (min-width: 768px) {
-  .slider-text h1 {
-    font-size: 50px;
-    margin-right: 18rem;
-  }
-}
+
 .slider-text h1 span {
   font-size: 54px;
   font-weight: 700;
@@ -9851,7 +9824,7 @@ h5,
   font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 .slider-text p strong {
   font-weight: 700;
@@ -11660,14 +11633,13 @@ textarea.form-control {
 .orange {
   color: #f68a0a;
 }
-.medium-blog{
+.medium-blog {
   display: flex;
   flex-direction: row;
-
 }
 
 @media (max-width: 767.98px) {
-  .medium-blog{
+  .medium-blog {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

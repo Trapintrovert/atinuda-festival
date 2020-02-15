@@ -9873,7 +9873,7 @@ h5,
   font-size: 38px;
   font-weight: 200;
   border-left: 1px solid rgba(0, 0, 0, 0.05);
-  color: #4c6179;
+  color: #f58a0a;
 }
 #timer .time:first-child {
   border-left: transparent;
@@ -9881,7 +9881,7 @@ h5,
 #timer .time span {
   font-size: 16px;
   display: block;
-  color: #000000;
+  color: #fff;
 }
 
 .owl-carousel {
@@ -10505,7 +10505,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 6em 0 0 0;
+  padding: 6em 0;
   position: relative;
 }
 @media (max-width: 767.98px) {
@@ -11644,4 +11644,8 @@ textarea.form-control {
     flex-direction: row;
     flex-wrap: wrap;
   }
+}
+
+.countdown {
+  text-align: -webkit-center ;
 }
